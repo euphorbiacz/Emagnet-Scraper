@@ -1,14 +1,14 @@
-# EMAGNET-GENERATOR v1.0
+# EMAGNET SCRAPER - v1.0
 
 ## <p align="center">![Screenshot](https://repository-images.githubusercontent.com/165741206/f9087e00-397d-11ea-9cab-1aea419f9448)
 
 | Current Version    | News                            | Tested On                          |
 | :----------------- | :-------------------------------- | :----------------------------------|
-| `1.0`              |  Run your own emagnet server      | Linux/MacOS/OpenWRT/Windows/Android                               |
+| `1.0`              |  Run your own serer for emagnet      | Linux/MacOS/OpenWRT/Windows/Android                               |
 
 ### About: 
 
-Emagnet Scraper is a monitor tool so we can grab all urls from scrape.pastebin.com/api_scrape.php and store all uploads on our own server. 
+Emagnet Scraper is a monitor tool so we can grab all urls from scrape.pastebin.com/api_scrape.php and store all uploads on our own server and share to people
 
 Setup your own server for emagnet and store both pastebin-api.txt (full api) && pastebin.txt (raw files)
 
@@ -23,10 +23,9 @@ Setup your own server for emagnet and store both pastebin-api.txt (full api) && 
 # -
 # - For find your own urls or at emagnet server, you can do as below:
 # - Print all urls:         curl -Lvs https://nr1.nu/emagnet/pastebin/yyy-mm-dd/pastebin.txt
+# - Print all urls in json: curl -Lvs https://nr1.nu/emagnet/pastebin/yyy-mm-dd/pastebin-api.txt|jq
 
 ![Screenshot](...)
-
-# - Print all urls in json: curl -Lvs https://nr1.nu/emagnet/pastebin/yyy-mm-dd/pastebin-api.txt|jq
 
 ![Screenshot](...)
 ### System Requirements
