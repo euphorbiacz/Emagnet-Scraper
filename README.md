@@ -1,48 +1,36 @@
-# EMAGNET v3.4.3
-
-### Before you using emagnet, please remember that with great power comes great responsibility. 
+# EMAGNET-GENERATOR v1.0
 
 ## <p align="center">![Screenshot](https://repository-images.githubusercontent.com/165741206/f9087e00-397d-11ea-9cab-1aea419f9448)
 
 | Current Version    | News                            | Tested On                          |
 | :----------------- | :-------------------------------- | :----------------------------------|
-| `3.4.3`            |  More than twice as fast as previous version    | Linux/MacOS/OpenWRT/Windows/Android                               |
-| `3.4.2`            |  Support for scraping via API has been added    | Linux/MacOS/OpenWRT/Windows/Android                               |
-| `3.4.1`            |  Support for SSH Tunnel/Socks5 proxy    | Linux/MacOS/OpenWRT/Windows/Android                               |
-| `3.4`              |  Full support on android devices, no root required    | Linux/MacOS/OpenWRT/Windows/Android                               |
-
-<a href="https://github.com/wuseman/EMAGNET"><img src="https://img.shields.io/github/languages/top/wuseman/emagnet.svg?color=magenta&label=Bash%2FShell"></a><a href="https://github.com/wuseman/EMAGNET/issues?q=is%3Aissue+is%3Aclosed">
-<img src="https://img.shields.io/github/issues-closed/wuseman/emagnet.svg?color=light&label=Closed%20Issues"></a>
- <a href="https://github.com/wuseman/EMAGNET/issues"><img src="https://img.shields.io/github/issues-raw/wuseman/emagnet.svg?color=orange&label=Open%20Issues"></a><img src="https://img.shields.io/github/last-commit/wuseman/emagnet.svg?color=darkmagenta&label=Latest%20Commit"><a href="https://twitter.com/wuseman1">
- <img src="https://img.shields.io/website/https/nr1.nu.svg?down_color=darkred&down_message=DOWN&label=Nr1.nu%2Femagnet&up_message=UP"><img src="https://img.shields.io/github/license/wuseman/emagnet.svg?color=blue&label=License"></a></a></a>
-</a>
-</p>
+| `1.0`              |  Run your own emagnet server      | Linux/MacOS/OpenWRT/Windows/Android                               |
 
 ### About: 
 
-Emagnet is a very powerful tool for it's purpose wich is to capture  email addresses and passwords from leaked databases uploaded on pastebin. It's almost impossible to find leaked passwords when they are out of list on pastebin.com. Either they have been deleted by pastebin's techs or the uploads is just one in the crowd. To be honest it's easier to find a needle in a haystack then find outdated uploads on pastebin w
+Emagnet Scraper is a monitor tool so we can grab all urls from scrape.pastebin.com/api_scrape.php and store all uploads on our own server. 
 
-#### BBC NEWS: ["Pastebin: Running the site where hackers publicise their attacks"](https://www.bbc.com/news/technology-17524822) 
-
-- Emagnet is No.1 tool for fetch these leaks from pastebin
+Setup your own server for emagnet and store both pastebin-api.txt (full api) && pastebin.txt (raw files)
 
 ### Getting Started
 
-    git clone https://github.com/wuseman/emagnet
-    chmod +x emagnet/emagnet.sh
-    bash emagnet/emagnet.sh --emagnet
-  
-### Sit back and relax and Emagnet will do the rest, watch the video below, this is for real!	
+# Install apache2 and configure it after your needs, once done 
+# - you just need to create a folder in /var/www/html/emagnet/pastebim
+# - and from now you will have things stored like:
+# -
+# - Recent uploads stored as raw format:            /var/www/html/emagnet/pastebin/yyy-mm-dd/pastebin.txt 
+# - Recent uploads will also be stored in json: :   /var/www/html/emagnet/pastebin/yyy-mm-dd/pastebin.txt
+# -
+# - For find your own urls or at emagnet server, you can do as below:
+# - Print all urls:         curl -Lvs https://nr1.nu/emagnet/pastebin/yyy-mm-dd/pastebin.txt
 
-![Screenshot](.preview/emagnet-latest.gif)
+![Screenshot](...)
 
-### ... So how does this work? See the video below exactly line by line how it works: 
+# - Print all urls in json: curl -Lvs https://nr1.nu/emagnet/pastebin/yyy-mm-dd/pastebin-api.txt|jq
 
-* Left side is how you see things - Right side is what actually going on:
-
-![Screenshot](.preview/emagnet2-debug.gif)
-
+![Screenshot](...)
 ### System Requirements
+
 
 - Bash     - Find more info about _bash_ [here](https://www.gnu.org/software/bash/)
 - Wget     - Find more info about _wget_ [here](https://www.gnu.org/software/wget/)
@@ -77,34 +65,3 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
   
   Enter Freenodes network via your own client 'chat.freenode.com:+6697 or use their new web client [here](https://webchat.freenode.net/)
 
-### Notice
-
-Attacking different kinds of accounts via emagnet that you have not been granted or allowed to attack is strictly prohibited and it breaks the law. The punishment is hard and you can even get into prison in some countries just for trying to attack for intrusion. With this said, it's *important* that all users is aware of this and when you have cloned or downloaded it's fully up to every user to take responsibility over their own actions. wuseman cannot be held responsible for the actions of any user, all users using Emagnet on their own responsibility. 
-
-Developer: "All my previews where a brute force attack has been done is under controlling forms with 100% fully permissions by the owners. If you have any questions about this then you are welcome to contact me or the owner."
-
-### Haters Gonna Hate
-
-If you are one of these who dislikes _EMAGNET_ and believe the program has been developed for a reason that would break the law then I am not interested in taking part of your opinions, keep them for _yourself_! Emagnet does **NOT** leak any data at all either to the developer(s) or anyone else. No statistics at all to track any user so if you want to contact me for ask who it might was who downloaded emagnet a specific date is completely useless since i really have no idea, and to be honest I don't care.
-
-Feel free to read the history about emagnet [here](https://github.com/wuseman/EMAGNET/wiki/About) and how everything started about this project.
-
-#### Development of emagnet is active and is updated frequently, please use the latest version if you report issues/bugs.
-
-### Greetings: 
-
-_m1st_ that deliver legit leaks for us daily.
-
-And to all ppl that is trying to sell public leaks and steal the real hackers job, f*ck you! This is one reason why I started this project, I hope this project will get widely spreaded so you will earn 0.00$ on your re-edited malware shit!
-
-Cheers!
-
-### Feel free to send donations if you want to support the development of the emagnet
-
-    Please contact me before you send a donation: wuseman@nr1.nu
-
-### Emagnet is a private project since 2015 and was released in June @ 2018, to be continued. 
-
-
-
-# EMAGNET-SCRAPER
