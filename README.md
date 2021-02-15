@@ -16,7 +16,8 @@ Setup your own server for emagnet and store both pastebin-api.txt (full api) && 
 
 ### Getting Started
 
-# Install apache2 and configure it after your needs, once done 
+# Install apache2 or ngins and configure it after your needs, once done:
+
     ,-> Create a folder in /var/www/html/emagnet/pastebin
     |   From now you will have things stored like:
     |
@@ -26,10 +27,6 @@ Setup your own server for emagnet and store both pastebin-api.txt (full api) && 
     |           For find your own urls or at emagnet server, you can do as below:
     |           Print all urls:         curl -Lvs https://nr1.nu/emagnet/pastebin/yyy-mm-dd/pastebin.txt
     '---------> Print all urls in json: curl -Lvs https://nr1.nu/emagnet/pastebin/yyy-mm-dd/pastebin-api.txt|jq
-
-- Bash     - Find more info about _bash_ [here](https://www.gnu.org/software/bash/)
-- Wget     - Find more info about _wget_ [here](https://www.gnu.org/software/wget/)
-- Curl     - Find more info about _curl_ [here](https://github.com/curl/curl)
 
 ### Changelog
 
