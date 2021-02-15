@@ -16,13 +16,12 @@ Setup your own server for emagnet and store both pastebin-api.txt (full api) && 
 
 ### Getting Started
 
-# Install apache2 or ngins and configure it after your needs, once done:
+# Install apache2 or ngins and configure it after your needs:
 
     ,-> Create a folder in /var/www/html/emagnet/pastebin
     |   From now you will have things stored like:
-    |
-    |       Recent uploads stored as raw format:            /var/www/html/emagnet/pastebin/yyy-mm-dd/pastebin.txt 
-    |       Recent uploads will also be stored in json: :   /var/www/html/emagnet/pastebin/yyy-mm-dd/pastebin.txt
+    |   Recent uploads stored as raw format:            /var/www/html/emagnet/pastebin/yyy-mm-dd/pastebin.txt 
+    |   Recent uploads will also be stored in json: :   /var/www/html/emagnet/pastebin/yyy-mm-dd/pastebin.txt
     |
     |           For find your own urls or at emagnet server, you can do as below:
     |           Print all urls:         curl -Lvs https://nr1.nu/emagnet/pastebin/yyy-mm-dd/pastebin.txt
