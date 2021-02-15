@@ -1,6 +1,6 @@
 # Emagnet Scraper v1.0
 
-## This script is for all PRO API users
+### This script is for all PRO API users, if you got access to pastebin's pro section and wanna be kind and shares pastes let me know then I can host everything if you don't dare for the bans that this might will cause - Never forget - Sharing is caring! :-)
 
 ## <p align="center">![Screenshot](https://repository-images.githubusercontent.com/165741206/f9087e00-397d-11ea-9cab-1aea419f9448)
 
