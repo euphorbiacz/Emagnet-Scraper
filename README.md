@@ -1,5 +1,7 @@
 # Emagnet Scraper v1.0
 
+## This script is for all PRO API users
+
 ## <p align="center">![Screenshot](https://repository-images.githubusercontent.com/165741206/f9087e00-397d-11ea-9cab-1aea419f9448)
 
 | Current Version    | News                            | Tested On                          |
@@ -45,5 +47,5 @@ Setup your own server for emagnet and store both pastebin-api.txt (full api) && 
 
     If you have problems, questions, ideas or suggestions please contact me on *_wuseman@nr1.nu_  - For faster contact visit freenode irc network or the webchat and type '/msg wuseman hi!' in the input bar and I will reply you ASAP I will see the message.
   
-  Enter Freenodes network via your own client 'chat.freenode.com:+6697 or use their new web client [here](https://webchat.freenode.net/)
+    Enter Freenodes network via your own client 'chat.freenode.com:+6697 or use their new web client [here](https://webchat.freenode.net/)
 
