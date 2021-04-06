@@ -14,7 +14,7 @@ Setup your own server for emagnet and store both pastebin-api.txt (full api) && 
 
 ### Getting Started
 
-# Install apache2 or ngins and configure it after your needs:
+# Install apache2 or nginx and configure it after your needs:
 
     ,-> Create a folder in /var/www/html/emagnet/pastebin
     |   From now you will have things stored like:
